@@ -1,0 +1,15 @@
+# vim: set filetype=conf:
+# ANSIBLE-MANAGED CONFIGURATION FILE
+# Local config sample:
+#   {{ picom_config_path }}.sample
+# Upstream config source:
+#   https://github.com/yshui/picom/blob/next/picom.sample.conf
+
+# fade window transitions and window open/close
+fading = {{ 'true' if fade_window_open_close else 'false' }};
+
+# fix bleed-through of transparent windows stacked on top of each other
+opacity-rule = [
+  "0:_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN'"
+];
+
