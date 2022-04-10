@@ -1,0 +1,6 @@
+- name: "Install picom"
+  ansible.builtin.include_tasks: install/main.yml
+
+- name: "Configure picom"
+  ansible.builtin.include_tasks: configure/main.yml
+
