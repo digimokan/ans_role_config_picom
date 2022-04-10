@@ -1,0 +1,3 @@
+# Picom config file path
+linux_picom_config_path: '/etc/xdg/picom.conf'
+

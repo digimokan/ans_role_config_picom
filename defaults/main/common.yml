@@ -1,0 +1,6 @@
+# command to execute to start picom
+picom_start_cmd: 'picom'
+
+# fade window transitions and window open/close
+fade_window_open_close: true
+
