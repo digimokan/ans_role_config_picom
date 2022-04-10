@@ -21,6 +21,7 @@ Install and configure the picom compositor.
 
 ## Supported Operating Systems
 
+* Arch Linux.
 * Ubuntu hirsute (21.04), impish (21.10).
 * FreeBSD.
 

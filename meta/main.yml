@@ -1,0 +1,23 @@
+galaxy_info:
+  author: digimokan
+  description: "Install and configure the picom compositor"
+  license: "MIT"
+  min_ansible_version: 2.7
+  platforms:
+    - name: Archlinux
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - hirsute
+        - impish
+    - name: FreeBSD
+      versions:
+        - all
+  galaxy_tags:
+    - archlinux
+    - ubuntu
+    - freebsd
+    - compositor
+    - picom
+
