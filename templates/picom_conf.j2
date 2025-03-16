@@ -5,6 +5,9 @@
 # Upstream config source:
 #   https://github.com/yshui/picom/blob/next/picom.sample.conf
 
+# required backend selection: glx (opengl) or xrender (xorg native)
+backend = "xrender"
+
 # fade window transitions and window open/close
 fading = {{ 'true' if fade_window_open_close else 'false' }};
 
